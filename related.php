@@ -19,8 +19,9 @@ while( $my_query->have_posts() ) {
 $my_query->the_post();?>
 <div class="col-lg-4 col-md-4 col-sm-4">
             <div class="card post height262">
-         
-<a style="background-image:url(<?php echo get_image(); ?>);" class="thumbimage" href="<?php the_permalink()?>"></a>
+         <?php if (has_post_thumbnail( $post->ID ) ): ?>
+  <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
+<a style="background-image:url(<?php echo $image[0]; ?>);" class="thumbimage" href="<?php the_permalink()?>"></a><?php endif; ?>
 <div class="card-block">
                     <h2 class="card-title"><a title="<?php the_title(); ?>" href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2></div>
             </div>
