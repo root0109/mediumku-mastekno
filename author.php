@@ -30,9 +30,10 @@
 				<div class="clear"></div>
 			</div>
 			<!-- pagination -->
-			<div class="pagination">
+			<div class="bottompagination">
+				<div class="navigation" id="blog-pager">
 			<?php pagenavi(); ?>
-			</div>
+				</div>
 			<?php else : ?>
 			<!-- No posts found -->
 			<?php endif; ?>
