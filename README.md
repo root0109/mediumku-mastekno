@@ -10,6 +10,12 @@
   <li>Masuk ke bagian Tampilan >> Tema >> Tambah Baru >> Unggah Tema</li>
   <li>Kemudian masukan file tema yang sudah di download</li>
 </ol>
+
+<br/>
+<h2>WAJIB ADA</h2>
+Pastikan Install Plugin Berikut: https://id.wordpress.org/plugins/auto-post-thumbnail/
+</br>(Tidak Diperlukan, jika semua post memiliki gambar unggulan).
+
 <br/>
 <h3>Fitur Mediumku Wordpress</h3>
 <table cellpadding="0" cellspacing="0" style="text-align: left;"><tbody>
