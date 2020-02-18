@@ -16605,9 +16605,7 @@ h6 {
   }
 }
 html {
-      -webkit-animation: fadein 1s;
-      animation: fadein 1s;
-      word-wrap: break-word
+      word-wrap: break-word;
 }
       .clear,
       .clearfix {
