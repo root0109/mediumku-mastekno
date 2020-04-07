@@ -12925,7 +12925,7 @@ h4,
 h5,
 h6,
 table {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif;
   font-weight: 700;
 }
 
@@ -14716,7 +14716,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif;
   font-weight: 700;
   color: #111111;
 }
@@ -14724,7 +14724,7 @@ h6 {
 .thm img{width:100%}
 
 .carousel-excerpt .title {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif;
   font-size: 30px;
   font-weight: 700;
   text-transform: none;
